@@ -1,5 +1,10 @@
-import 'package:hyper_ui/core.dart';
+import 'package:etercommerce/shared/theme/theme.dart';
+import 'package:etercommerce/state_util.dart';
+import 'package:etercommerce/core.dart';
+import 'package:etercommerce/core.dart';
 import 'package:flutter/material.dart';
+
+import 'module/login/view/login_view.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -16,16 +21,13 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Capek Ngoding',
+      title: 'EterCommerce',
       navigatorKey: Get.navigatorKey,
       debugShowCheckedModeBanner: false,
       theme: getDefaultTheme(),
-      home: MainNavigationView(),
-      builder: (context, child) => DebugView(
-        context: context,
-        child: child,
-        visible: true,
-      ),
+      home: LoginView(),
     );
   }
 }
+
+

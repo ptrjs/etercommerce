@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "hyper_snippet" "\0"
+            VALUE "FileDescription", "etercommerce" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "hyper_snippet" "\0"
+            VALUE "InternalName", "etercommerce" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "hyper_snippet.exe" "\0"
-            VALUE "ProductName", "hyper_snippet" "\0"
+            VALUE "OriginalFilename", "etercommerce.exe" "\0"
+            VALUE "ProductName", "etercommerce" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

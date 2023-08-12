@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hyper_ui/core.dart';
+import 'package:etercommerce/core.dart';
 import '../controller/profile_controller.dart';
 
 class ProfileView extends StatefulWidget {
@@ -11,7 +11,18 @@ class ProfileView extends StatefulWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Profile"),
-        actions: const [],
+        actions: [
+          Padding(
+            padding: EdgeInsets.all(12.0),
+            child: IconButton(
+              onPressed: () => controller.doLogout(),
+              icon: const Icon(
+                Icons.logout,
+                size: 24.0,
+              ),
+            ),
+          ),
+        ],
       ),
       body: SingleChildScrollView(
         child: Container(

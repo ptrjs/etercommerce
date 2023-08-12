@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hyper_ui/core.dart';
+import 'package:etercommerce/core.dart';
 import '../view/profile_view.dart';
 
 class ProfileController extends State<ProfileView> {
@@ -17,4 +17,8 @@ class ProfileController extends State<ProfileView> {
 
   @override
   Widget build(BuildContext context) => widget.build(context, this);
+
+  doLogout() async {
+    Get.offAll(LoginView());
+  }
 }

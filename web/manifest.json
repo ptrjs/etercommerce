@@ -1,6 +1,6 @@
 {
-    "name": "hyper_ui",
-    "short_name": "hyper_ui",
+    "name": "etercommerce",
+    "short_name": "etercommerce",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

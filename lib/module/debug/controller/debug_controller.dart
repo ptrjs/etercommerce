@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hyper_ui/core.dart';
+import 'package:etercommerce/core.dart';
 import '../view/debug_view.dart';
 
 class DebugController extends State<DebugView> {

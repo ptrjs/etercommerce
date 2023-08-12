@@ -1,11 +1,11 @@
 import 'package:google_fonts/google_fonts.dart';
-import 'package:hyper_ui/shared/theme/theme_config.dart';
+import 'package:etercommerce/shared/theme/theme_config.dart';
 import 'package:flutter/material.dart';
 
 ThemeData getDefaultTheme() {
   return ThemeData().copyWith(
     primaryColor: primaryColor,
-    scaffoldBackgroundColor: Colors.grey[300],
+    scaffoldBackgroundColor: Colors.white,
     colorScheme: ColorScheme.fromSeed(seedColor: primaryColor),
     appBarTheme: AppBarTheme(
       backgroundColor: Colors.white,

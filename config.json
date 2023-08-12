@@ -1,0 +1,15 @@
+{
+    "modules": [
+        "login",
+        "dashboard",
+        "product_list",
+        "product_detail",
+        "cart",
+        "profile",
+        "order"
+    ],
+    "module_directory_name": "module",
+    "experimental_mode": false,
+    "unfreezed": true,
+    "use_cubit": false
+}

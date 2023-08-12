@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:hyper_ui/core.dart';
+import 'package:etercommerce/core.dart';
 
 class DebugView extends StatefulWidget {
   final BuildContext context;

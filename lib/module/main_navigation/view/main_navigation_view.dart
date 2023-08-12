@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hyper_ui/core.dart';
+import 'package:etercommerce/core.dart';
 
 class MainNavigationView extends StatefulWidget {
   const MainNavigationView({Key? key}) : super(key: key);
@@ -15,8 +15,8 @@ class MainNavigationView extends StatefulWidget {
           index: controller.selectedIndex,
           children: const [
             DashboardView(),
+            CartView(),
             OrderView(),
-            FavoriteView(),
             ProfileView(),
           ],
         ),
@@ -38,9 +38,9 @@ class MainNavigationView extends StatefulWidget {
                     color: Colors.white,
                   ),
                 ),
-                child: Icon(MdiIcons.table),
+                child: Icon(MdiIcons.cart),
               ),
-              label: "Order",
+              label: "Cart",
             ),
             BottomNavigationBarItem(
               icon: Badge(
@@ -50,9 +50,9 @@ class MainNavigationView extends StatefulWidget {
                     color: Colors.white,
                   ),
                 ),
-                child: Icon(Icons.favorite),
+                child: Icon(Icons.shop),
               ),
-              label: "Favorite",
+              label: "Order",
             ),
             BottomNavigationBarItem(
               icon: Icon(
