@@ -7,7 +7,7 @@ Architecture using MVC.
 State Management using StatefulWidget setState. 
 
 ### Screenshot
-![image](https://github.com/ptrjs/etercommerce/assets/34370936/fd7434c1-f2ed-4a19-bee9-6efe04d80431) 
+![image](https://github.com/ptrjs/etercommerce/assets/34370936/2dac0d08-4095-4851-ad68-3b04a3e4a12a)
 
 ![image](https://github.com/ptrjs/etercommerce/assets/34370936/1d146b25-f43c-41e9-904d-6ada3e899ef2)
 
