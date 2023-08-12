@@ -1,5 +1,5 @@
 # Etercommerce
-Etercommerce: an E-Commerce Apps
+Etercommerce: E-Commerce Apps
 a portfolio to learn Flutter.
 
 ## Architecture
